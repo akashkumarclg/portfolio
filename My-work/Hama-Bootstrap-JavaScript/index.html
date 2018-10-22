@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hama</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <main>
+            <!-- Header+NAvigation stection start here -->
+            <header id="scrollTop" style="position: relative;
+                z-index: 10;">
+                <div class="container-fluid mobile-container">
+                    <div class="container">
+                        <div class="row header-top">
+                            <div class="col-sm-12 col-md-2 col-xs-4 logo1">
+                                <div id="logo">
+                                    <h1 id="color" class="text-center">
+                                        <a href="#">
+                                            <span class="logo-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path d="M317.5 210.3c1.7-1.8 1.8-4.7 0-6.5l-19.8-21c-.8-.9-2-1.4-3.2-1.4-1.2 0-2.4.5-3.2 1.4l-66.5 69.1 26.4 27.1 66.3-68.7zM123.8 253.1c-.9-.9-2-1.4-3.2-1.4-1.2 0-2.3.5-3.2 1.4l-20.1 20.7c-1.8 1.8-1.8 4.8 0 6.6l63.2 65c4 4.2 9 6.6 13.2 6.6 6 0 11.1-4.5 13.1-6.4l.1-.1 13.4-13.8-76.5-78.6z"></path>
+                                                    <path d="M414.7 182.4l-19.8-21c-.8-.9-2-1.4-3.2-1.4-1.2 0-2.4.5-3.2 1.4L250.7 304.1l-50.1-51.6c-.9-.9-2-1.4-3.2-1.4-1.2 0-2.3.5-3.2 1.4l-20.1 20.7c-1.8 1.8-1.8 4.8 0 6.6l63.2 65c4 4.2 9 6.6 13.2 6.6 6 0 11.1-4.5 13.1-6.4l.1-.1 151-156.1c1.7-1.7 1.7-4.6 0-6.4z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="text" style="line-height: 47px;">HAMA</span>
+                                        </a>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-8 col-xs-2 uppercase top-right menu1">
+                                <nav class="navbar-collapse" id="mySidenav">
+                                    <a href="#" type="button" class="button">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    </a>
+                                    <ul class="nav navbar-nav main-nav">
+                                        <li class="drop nav-list-stle home-sub" data-toggle="collapse" data-target="#submenu1">
+                                            <a href="#">Home</a>
+                                            <ul class="sub-menu collapse" id="submenu1">
+                                                <li><a href="#">HOME1</a></li>
+                                                <li><a href="#">HOME2</a></li>
+                                                <li><a href="#">HOME3</a></li>
+                                                <li><a href="#">HOME4</a></li>
+                                            </ul>
+                                            <span class="btnplus"></span>
+                                        </li>
+                                        <li class="drop nav-list-stle home-sub" data-toggle="collapse" data-target="#submenu2">
+                                            <a href="#">vendors</a>
+                                            <ul class="sub-menu collapse" id="submenu2">
+                                                <li><a href="#">Vendors page</a></li>
+                                                <li><a href="#">Vendors Dashboard</a></li>
+                                                <li><a href="#">Orders</a></li>
+                                                <li><a href="#">Shop Setting</a></li>
+                                            </ul>
+                                            <span class="btnplus"></span>
+                                        </li>
+                                        <li class="drop nav-list-stle">
+                                            <a href="#">shop</a>
+                                            <ul>
+                                                <li></li>
+                                            </ul>
+                                            <span class="btnplus"></span>
+                                        </li>
+                                        <li class="drop nav-list-stle">
+                                            <a href="#">blog</a>
+                                            <ul>
+                                                <li></li>
+                                            </ul>
+                                            <span class="btnplus"></span>
+                                        </li>
+                                        <li class="drop nav-list-stle">
+                                            <a href="#">mega menu</a>
+                                            <ul>
+                                                <li></li>
+                                            </ul>
+                                            <span class="btnplus"></span>
+                                        </li>
+                                        <li class=" nav-list-stle"><a href="#">about</a></li>
+                                        <li class=" nav-list-stle"><a href="#">contact</a></li>
+                                    </ul>
+                                    <div class="fuzzy"></div>
+                                </nav>
+                            </div>
+                            <div class="col-sm-2 col-md-2 col-xs-6 top-right icon1">
+                                <ul id="social_icon">
+                                    <li class="inline" id="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                                    <li class="inline" id="login"><a href="#"><i class="fa fa-lock"></i></a></li>
+                                    <li class="inline" id="cart">
+                                        <a href="#"><i class="fa fa-shopping-cart"></i>
+                                        <span class="mini-cart-text">
+                                        <span class="mini-cart-number set-cart-number">0</span>
+                                        </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header+NAvigation stection End here -->
+            <!-- video-banner stection start here -->
+            <section class="container-fluid">
+                <section class="row">
+                    <section id="video-banner">
+                        <video loop muted autoplay class="video-fullscreen" style="width:100%;">
+                            <source src="video.mp4" type="video/mp4">
+                        </video>
+                        <div class="banner-info" style="height: 135px;">
+                            <div class="slider-content-text animated fadeInRight text-center" data-animated="fadeInRight">
+                                <h2>furniture handmade</h2>
+                                <h4>Mes cuml dia sed in lacus eniascet</h4>
+                                <p><a class="shop-button" href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-3/">Shop now!</a></p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <section class="clear clearfix"></section>
+            <!-- video-banner stection End here -->
+            <!--product by catagroies stection start here -->
+            <section class="container margintop60 margintop20">
+                <section class="row marginbottom50">
+                    <section class="col-sm-4">
+                        <section class="inner-col">
+                            <section class="wrapper">
+                                <section class="upper-wrapper marginbottom30 hover_button pull zoom-image" style="height: 100%">
+                                    <a href="#" class="adv-thumb-link">    
+                                    <img src="images/illustrator/col1_up.jpg" class="attachment-full size-full" alt="col1_up.jpg">	
+                                    </a>
+                                    <div class="banner-info ">
+                                        <p><a href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">Recliner Chair</a></p>
+                                        <h4>Quality</h4>
+                                        <p><a class="shop-button" href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">Shop now!</a></p>
+                                    </div>
+                                </section>
+                                <section class="upper-wrapper hover_button pull zoom-image" style="height: 100%">
+                                    <a href="#" class="adv-thumb-link">    
+                                    <img src="images/illustrator/co1_down.jpg" class="attachment-full size-full" alt="col1_up.jpg">	
+                                    </a>
+                                    <div class="banner-info ">
+                                        <p><a href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">desk book</a></p>
+                                        <h4>hardwood</h4>
+                                        <p><a class="shop-button" href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">Shop now!</a></p>
+                                    </div>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="col-sm-4">
+                        <section class="inner-col">
+                            <section class="wrapper">
+                                <section class="upper-wrapper center_banner pull zoom-image" style="height: 100%">
+                                    <a href="#" class="adv-thumb-link">    
+                                    <img src="images/illustrator/col2.jpg" class="attachment-full size-full" alt="col2.jpg">	
+                                    </a>
+                                    <div class="banner-info ">
+                                        <h2>furniture home</h2>
+                                        <h4>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                                        <p><a class="shop-button" href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">Shop now!</a></p>
+                                    </div>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="col-sm-4">
+                        <section class="inner-col">
+                            <section class="wrapper">
+                                <section class="upper-wrapper marginbottom30 hover_button pull zoom-image" style="height: 100%">
+                                    <a href="#" class="adv-thumb-link">    
+                                    <img src="images/illustrator/col3_down.jpg" class="attachment-full size-full" alt="col3_down.jpg">	
+                                    </a>
+                                    <div class="banner-info ">
+                                        <p><a href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">fogia launches</a></p>
+                                        <h4>hardwood</h4>
+                                        <p><a class="shop-button" href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">Shop now!</a></p>
+                                    </div>
+                                </section>
+                                <section class="upper-wrapper hover_button pull zoom-image" >
+                                    <a href="#" class="adv-thumb-link" style="height: 100%">    
+                                    <img src="images/illustrator/col3_up.jpg" class="attachment-full size-full" alt="col3_up.jpg">	
+                                    </a>
+                                    <div class="banner-info ">
+                                        <p><a href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">sofa collection</a></p>
+                                        <h4>Quality</h4>
+                                        <p><a class="shop-button" href="http://7uptheme.com/wordpress/hama/product/t-shirt-sport-2/">Shop now!</a></p>
+                                    </div>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <!--product by catagroies stection End here -->
+            <!--=======slide show section start here--=================-->
+            <div class="second-tabs-content what-we-do">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-heading">
+                                <h3 class="title18 text-uppercase">Best selleres</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="wrapper">
+                            <div class="col-md-12 tab-header" style="text-align: center;">
+                                <div class="row">
+                                    <ul class="tabs clearfix" data-tabgroup="second-tab-group">
+                                        <li class="inline-block active sellere-btn">
+                                            <a href="#living"  data-toggle="tab">
+                                            Living room
+                                            </a>
+                                        </li>
+                                        <li class="inline-block sellere-btn">
+                                            <a href="#living" data-toggle="tab">
+                                            Kitchen
+                                            </a>
+                                        </li>
+                                        <li class="inline-block sellere-btn">
+                                            <a href="#living" data-toggle="tab">
+                                            Bedroom
+                                            </a>
+                                        </li>
+                                        <li class="inline-block sellere-btn">
+                                            <a href="#living" data-toggle="tab">
+                                            Bookstore
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-md-12 tab-content">
+                                    <section id="second-tab-group" class="tabgroup tab-content">
+                                        <div id="living" class="tab-pane fade in active">
+                                            <div class="row">
+                                                <div class="tab-content-services">
+                                                    <section class=" col-sm-12">
+                                                        <section class="row carousel" id="myCarousel" style="overflow: hidden;width: 102%;">
+                                                            <section id="slide101" class="slide1 carousel-inner">
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second000-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living1" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/1.jpg" alt="1">
+                                                                                </a>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Pancakes</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>459.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second2-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living11" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/2.jpg" alt="2">
+                                                                                </a>
+                                                                                <a href="#" id="bedroom11" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/2-2.jpg" alt="2-2">
+                                                                                </a>
+                                                                                <a href="#" id="bookstore11" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/2-3.jpg" alt="2-3">
+                                                                                </a>
+                                                                                <div class="product-gallery">
+                                                                                    <div class="col-md-12 tab-header" style="text-align: center;">
+                                                                                        <div class="row">
+                                                                                            <ul class="tabs clearfix" data-tabgroup="second2-tab-group" style="padding: 0px;">
+                                                                                                <li class="inline-block active">
+                                                                                                    <a href="#living11" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/2-1.jpg" alt="2-1">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bedroom11" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/2-2.jpg" alt="2-2">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bookstore11" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/2-3.jpg" alt="2-3">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Hunter Douglas Honeycomb</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£56 - </span>£238.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second3-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living12" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/3.jpg" alt="3">
+                                                                                </a>
+                                                                                <a href="#" id="bedroom12" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/3-2.jpg" alt="3-2">
+                                                                                </a>
+                                                                                <a href="#" id="bookstore12" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/3-3.jpg" alt="3-3">
+                                                                                </a>
+                                                                                <div class="product-gallery">
+                                                                                    <div class="col-md-12 tab-header" style="text-align: center;">
+                                                                                        <div class="row">
+                                                                                            <ul class="tabs clearfix" data-tabgroup="second3-tab-group" style="padding: 0px;">
+                                                                                                <li class="inline-block active">
+                                                                                                    <a href="#living12" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/3.jpg" alt="3">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bedroom12" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/3-2.jpg" alt="3-2">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bookstore12" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/3-3.jpg" alt="3-3">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Duck Egg Curtain Collection</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>200.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second4-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living13" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/4.jpg" alt="4">
+                                                                                </a>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Chair Classicle</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>400.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second5-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living14" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/5.jpg" alt="5">
+                                                                                </a>
+                                                                                <a href="#" id="bedroom14" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/5-2.jpg" alt="5-2">
+                                                                                </a>
+                                                                                <a href="#" id="bookstore14" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/5-3.jpg" alt="5-3">
+                                                                                </a>
+                                                                                <div class="product-gallery">
+                                                                                    <div class="col-md-12 tab-header" style="text-align: center;">
+                                                                                        <div class="row">
+                                                                                            <ul class="tabs clearfix" data-tabgroup="second5-tab-group" style="padding: 0px;">
+                                                                                                <li class="inline-block active">
+                                                                                                    <a href="#living14" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/5.jpg" alt="5">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bedroom14" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/5-2.jpg" alt="5-2">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bookstore14" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/5-3.jpg" alt="5-3">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Furniture</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>367.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second6-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living15" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/8.jpg" alt="8">
+                                                                                </a>
+                                                                                <a href="#" id="bedroom15" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/2.jpg" alt="2">
+                                                                                </a>
+                                                                                <a href="#" id="bookstore15" class="tab-pane fade product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/6-3.jpg" alt="6-3">
+                                                                                </a>
+                                                                                <div class="product-gallery">
+                                                                                    <div class="col-md-12 tab-header" style="text-align: center;">
+                                                                                        <div class="row">
+                                                                                            <ul class="tabs clearfix" data-tabgroup="second6-tab-group" style="padding: 0px;">
+                                                                                                <li class="inline-block active">
+                                                                                                    <a href="#living15" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/2-3.jpg" alt="2-3">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bedroom15" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/2-1.jpg" alt="2-1">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="inline-block">
+                                                                                                    <a href="#bookstore15" data-toggle="tab">
+                                                                                                    <img style="width: 57px; height: 57px;" src="images/illustrator/6-3.jpg" alt="6-3">
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Coffee black</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>238.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second7-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living16" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/7.jpg" alt="7">
+                                                                                </a>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">John Lewis Dahlia Eyelet Curtains</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>239.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slide0 block" style="width: 293px;">
+                                                                    <div>
+                                                                        <div class="item-product">
+                                                                            <section id="second8-tab-group" class="tabgroup tab-content product-image">
+                                                                                <a href="#" id="living17" class="tab-pane fade in active product-image-link">
+                                                                                <img style="width:100%;height: 241px;" src="images/illustrator/col3_up.jpg" alt="col3_up">
+                                                                                </a>
+                                                                            </section>
+                                                                            <div class="product-info">
+                                                                                <h3 class="product-title">
+                                                                                    <a title="Coffee black" href="http://7uptheme.com/wordpress/hama/product/coffee-black/">Bed</a>
+                                                                                </h3>
+                                                                                <div class="product-price simple"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>1238.00</span></div>
+                                                                                <div class="rating">
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #F4D632;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                    <i class="fa fa-star" style="color: #cecaca;"></i>
+                                                                                </div>
+                                                                                <div class="add-2-cart">
+                                                                                    <a href="#" class="add2cart-link" data-title="Coffee black"><span>Add to cart</span>
+                                                                                    </a>      
+                                                                                </div>
+                                                                                <div class="detail">
+                                                                                    <a href="#" class="more-detail"><span>More Detail</span></a>
+                                                                                </div>
+                                                                                <div class="heart-exchange-search">
+                                                                                    <a href="#">
+                                                                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-compare">
+                                                                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                                                                    </a>        
+                                                                                    <a href="#" class="product-quick-view ">
+                                                                                    <i class="fa fa-search"></i>
+                                                                                    </a>     
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                        </section>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all text-center container">
+                        <div class="row">
+                            <a href="#">view all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=======slide show section end here--=================-->
+            <!-------=========Parallex image1 section start here---------->
+            <div id="parallex1">
+                <div class="container text-center parallex1" style="padding: 80px 15px;">
+                    <div class="row" style="z-index: 1;
+                        position: relative;">
+                        <div class="col-sm-5">
+                            <div id="number" class="text-center">
+                                <h3>#1</h3>
+                            </div>
+                        </div>
+                        <div id="parallex1-content" class="text-center">
+                            <div class="col-sm-7">
+                                <h3>THE BEST FURNITURE SOFA</h3>
+                                <h2>FOR YOUR HOME</h2>
+                                <p id="a">Mes cuml dia sed in lacus eniascet ingerto aliiqt es sitet amet eismodi ut ligulate ameti dapibus ticdu.</p>
+                            </div>
+                            <p><a class="shop-button" href="#">BUY NOW!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------=========Parallex image1 section End here---------->
+            <section class="container">
+                <section class="row" style="margin-bottom: 70px;">
+                    <section class="col-sm-7 col-md-7 col-xs-12">
+                        <div id="left-banner">
+                            <img style="height: auto;" src="images/illustrator/left-banner.jpg" alt="left-banner">
+                        </div>
+                    </section>
+                    <section class="col-sm-5 col-md-5 col-xs-12" id="right-content">
+                        <div id="right-cont">
+                            <div class="banner-infor">
+                                <h3>Small Changes</h3>
+                                <h3>big Difference</h3>
+                                <h2>HAMA Furniture</h2>
+                                <p>Duck Egg Curtain Collection. Fusce euismod conse quat ante consectetuer adipiscing elit.</p>
+                                <p><a class="shop-button" href="#">Buy now!</a></p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <!--footer section start here-->
+            <footer>
+                <div class="container">
+                    <div class="row" id="footer-header">
+                        <div class=".col-12 col-sm-2 col-md-1" style="margin-top:20px;">
+                            <div id="footer-logo">
+                                <h1><a href="#"><img src="images/illustrator/footer-logo.png" alt="footer-logo"></a></h1>
+                            </div>
+                        </div>
+                        <div class=".col-12 col-sm-5 col-md-7" style="margin-top: 30px;">
+                            <div id="footer-menu">
+                                <ul style="padding: 20px;">
+                                    <li class="inline">
+                                        <a href="">Online Shopping</a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href=""> All Promotions</a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="">My Orders</a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="">Customer Service</a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="">About</a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=".col-12 col-sm-5 col-md-4" style="margin-top: 50px;">
+                            <div id="payment">
+                                <ul>
+                                    <li class="inline">
+                                        <a href="#"><img src="images/illustrator/paypal.png" alt="paypal"></a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="#"><img src="images/illustrator/mastercard.png" alt="mastercard"></a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="#"><img src="images/illustrator/cirrus.png" alt="cirrus"></a>
+                                    </li>
+                                    <li class="inline">
+                                        <a href="#"><img src="images/illustrator/maestro.png" alt="maestro"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="footer-middle">
+                        <div class="col-md-3 col-12 col-sm-6">
+                            <div class="list">
+                                <h2 class="title-footer">MY ACCOUNT</h2>
+                                <ul>
+                                    <li><a href="#">
+                                        My Orders</a>
+                                    </li>
+                                    <li><a href="#">My Credit Slips</a></li>
+                                    <li><a href="#">My Addresses</a></li>
+                                    <li><a href="#">My Personal Info</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 col-sm-6">
+                            <div class="list">
+                                <h2 class="title-footer">ORDERS</h2>
+                                <ul>
+                                    <li><a href="#">Payment options</a></li>
+                                    <li><a href="#">Shipping and delivery</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Shipping</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 col-sm-6">
+                            <div class="list">
+                                <h2 class="title-footer">INFORMATION</h2>
+                                <ul>
+                                    <li><a href="#">Specials</a></li>
+                                    <li><a href="#">New Products</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">Our Stores</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 col-sm-6">
+                            <div class="list" id="contact">
+                                <h2 class="title-footer">CONTACT US</h2>
+                                <ul style="padding: 0px;">
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Sesam Street 323b, 4010, Norway Country: USA</li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i> 03 118 4563 560</li>
+                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> support247@storename.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div id="news-letter">
+                                <h2 class="title-footer inline">NEWSLETTER</h2>
+                                <div class="inline" id="email">
+                                    <input type="email" name="Email" placeholder="Enter Your Email...">
+                                    <div id="submit">
+                                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="footer-social-icon">
+                                <h2 class="title-footer inline">FOLLOW US</h2>
+                                <div class="icon-social inline">
+                                    <a href="#"><i class="fa fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa fa-pinterest"></i></a>
+                                    <a href="#"><i class="fa fa fa-skype"></i></a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <script>
+			$(document).ready(function(){
+				$(".button").click(function(){
+					$("#mySidenav").toggleClass("active1");
+					$(".button").toggleClass("active1");
+					$(".fuzzy").toggleClass("fuzzy-active");
+				});
+			});
+            
+			//header scrolltop code     	
+            window.onscroll = function() {
+				scrollFunction()
+			};
+			
+			function scrollFunction() {
+				if (( 10<document.body.scrollTop && document.body.scrollTop<100) || (10<document.documentElement.scrollTop && document.documentElement.scrollTop<100)) {
+					var scrollTop=document.getElementById("scrollTop");
+					scrollTop.classList.add("fixed-header");
+				}
+				else if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+					var scrollTop=document.getElementById("scrollTop");
+					scrollTop.classList.add("active");
+				} else {
+					var scrollTop=document.getElementById("scrollTop");
+					scrollTop.classList.remove("fixed-header");
+					scrollTop.classList.remove("active");
+				}
+			}
+		</script>
+		
+		<script>
+			var xPos=0;
+            var slides1 = document.getElementById("slide101");
+			carousel1();
+			
+            function carousel1() {
+				var slide0= document.getElementsByClassName("slide0");
+				var x=$(window).width();
+				var mobile=window.matchMedia("(max-width: 767px)");
+				var tab=window.matchMedia("(min-width: 767px)");
+				var desk=window.matchMedia("(min-width: 984px)");
+				console.log(p);
+				setTranslate(xPos,slides1);
+				if (desk.matches) {
+					xPos=xPos-293;
+					for (var i = 0; i < slide0.length; i++) {
+						slide0[i].style.width="293px";
+					} 
+					if (xPos < -1172) {xPos = 0}
+				}
+				else if (tab.matches){
+					var p= x-284;
+					xPos=xPos-p;
+					for (var i = 0; i < slide0.length; i++) {
+						slide0[i].style.width=""+ p +"px";
+					}
+					if (xPos < -p*6) {xPos = 0}
+				}
+				else{
+					var p= x-30;
+					xPos=xPos-p;
+					for (var i = 0; i < slide0.length; i++) {
+						slide0[i].style.width=""+ p +"px";
+					}
+					if (xPos < -p*7) {xPos = 0}
+				}
+				setTimeout(carousel1, 4000);
+			}
+			
+			function setTranslate(xPos,el) {
+				el.style.transform = "translate3d("+ xPos+"px,0,0)";
+            }
+        </script>
+    </body>
+</html>

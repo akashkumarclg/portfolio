@@ -1,0 +1,332 @@
+* {
+	margin: 0px auto;
+	border: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	box-shadow: 0px 3px 8px 0px #888888;
+	background: #ffffff;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+/* Roatating Logo css start here*/
+
+@keyframes rotation {
+	0% {
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+	50% {
+		transform: rotate3d(0, 1, 0, 180deg);
+	}
+	100% {
+		transform: rotate3d(0, 1, 0, 360deg);
+	}
+}
+
+.coin {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 50px;
+	animation-name: rotation;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 3.5s;
+	transform: rotateY(0deg);
+	transform-style: preserve-3d;
+}
+
+.face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	backface-visibility: hidden;
+}
+
+.heads {
+	background-image: url("../images/illustration/logo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.tails {
+	background-image: url("../images/illustration/arrow.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	transform: rotateY(180deg);
+}
+
+
+/* Roatating Logo css End here*/
+
+
+/* Menu css start here*/
+
+nav ul li {
+	display: inline-block;
+	padding: 8px 30px 8px 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Hanalei Fill', cursive;
+}
+
+nav ul li:hover a,
+.active {
+	border-bottom: 2px solid #0D640C;
+}
+
+
+/* Menu css End here*/
+
+
+/* Banner + About css start here*/
+
+#banner img {
+	width: 100%;
+}
+
+#banner,
+#about {
+	background: #000;
+	color: #000;
+}
+
+#about p {
+	width: 1000px;
+	text-align: justify;
+	background: white;
+	box-shadow: 20px 19px 14px 0px #196932;
+	padding: 20px;
+	font-family: 'Hanalei Fill', cursive;
+	margin-bottom: 50px;
+}
+
+#about ul li {
+	display: inline-block;
+}
+
+
+/* Banner + About css End here*/
+
+
+/* Accordion css start here*/
+
+.accordion {
+	width: 100%;
+	max-width: 1080px;
+	margin: 50px auto;
+}
+
+.accordion p {
+	margin: 50px;
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 24px;
+}
+
+.accordion ul {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+.accordion ul li {
+	display: table-cell;
+	vertical-align: bottom;
+	position: relative;
+	width: 16.666%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 500ms ease;
+	border-left: 1px solid #31a576;
+	-webkit-box-shadow: 0 0 20px 14px rgb(2, 33, 25);
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+.accordion ul li div {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.accordion ul li div a {
+	display: block;
+	height: 400px;
+	width: 100%;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	color: #fff;
+	text-decoration: none;
+}
+
+.accordion ul li div a h2 {
+	font-family: 'Hanalei Fill', cursive;
+	text-overflow: clip;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	top: 160px;
+}
+
+.accordion ul li:nth-child(1) {
+	background-image: url("../images/illustration/Arrow-Season6.jpg");
+}
+
+.accordion ul li:nth-child(2) {
+	background-image: url("../images/illustration/Arrow-Season5.jpg");
+}
+
+.accordion ul li:nth-child(3) {
+	background-image: url("../images/illustration/arrow-season4.png");
+}
+
+.accordion ul li:nth-child(4) {
+	background-image: url("../images/illustration/Arrow-Season3.jpg");
+}
+
+.accordion ul li:nth-child(5) {
+	background-image: url("../images/illustration/arrow-season2.jpg");
+}
+
+.accordion ul li:nth-child(6) {
+	background-image: url("../images/illustration/Arrow-Season1.jpg");
+}
+
+.accordion ul:hover li {
+	width: 8%;
+}
+
+.accordion ul:hover li:hover {
+	width: 60%;
+}
+
+.accordion ul:hover li:hover a {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Accordion css End here*/
+
+
+/* Video css start here*/
+
+#video {
+	display: inline-block;
+	margin: 75px 0px 0px 200px;
+	padding-bottom: 60px;
+}
+
+#video iframe {
+	width: 500px;
+	box-shadow: 0px 0px 20px 0px #4ee5a5;
+}
+
+#video-container ul {
+	display: inline-block;
+}
+
+#right-list {
+	display: inline-block;
+	margin-right: 220px;
+	float: right;
+}
+
+.list-video iframe {
+	width: 275px;
+	height: 145px;
+	margin-top: 14px;
+	box-shadow: 0px 0px 20px 0px #4ee5a5;
+}
+
+
+/* Video css End here*/
+
+
+/* Cast and crew css start here*/
+
+#cast {
+	background: #FAFAFA;
+	padding-bottom: 10px;
+}
+
+#cast p {
+	color: #757575;
+	font-family: arial, sans-serif;
+	padding: 24px 0px 24px 70px;
+}
+
+#cast p strong {
+	color: #000;
+}
+
+.row .card {
+	background-color: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	border-radius: 2px;
+	display: inline-flex;
+}
+
+.name {
+	color: #222;
+	font-size: 13px;
+}
+
+.role {
+	color: #757575;
+	font-size: 13px;
+}
+
+.name,
+.role {
+	margin-left: 16px;
+	margin-right: 16px;
+	text-shadow: none;
+	padding-top: 0px;
+	line-height: 18px;
+}
+
+
+/* Cast and crew css End here*/
+
+
+/* footer css start here*/
+
+footer p {
+	color: white;
+	font-size: 22px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-family: 'Hanalei Fill', cursive;
+}
+
+footer h3 {
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Hanalei Fill', cursive;
+}

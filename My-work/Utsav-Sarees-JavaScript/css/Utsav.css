@@ -1,0 +1,566 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 1300px;
+    height: 3000px;
+    background: url("../images/background/background.png") top center no-repeat;
+    background-size: cover;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*-------===============Header code Start================----------------*/
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #b31b1b;
+}
+
+#contact {
+    margin-left: 80px;
+    float: left;
+    padding-top: 10px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: white;
+}
+
+header #contact ul li:first-child {
+    background: url("../images/illustration/phone.png") left no-repeat;
+    text-indent: 20px;
+}
+
+header #contact ul li:last-child {
+    background: url("../images/illustration/envelope.png") left no-repeat;
+    text-indent: 25px;
+}
+
+#ver {
+    border-left: 1px solid white;
+    height: 14px;
+    margin: 0px 14px;
+}
+
+#social {
+    float: right;
+    padding-top: 4px;
+    padding-right: 65px;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 16px;
+    display: inline-block;
+    width: 27px;
+    height: 28px;
+    margin-left: 6px;
+}
+
+#facebook {
+    background: url("../images/background/facebook.png") center no-repeat;
+}
+
+#linkedin {
+    background: url("../images/background/linkedin.png") center no-repeat;
+}
+
+#pinstra {
+    background: url("../images/background/pinsta.png") center no-repeat;
+}
+
+#twitter {
+    background: url("../images/background/twitter.png") center no-repeat;
+}
+
+#dot {
+    background: url("../images/background/dot.png") center no-repeat;
+}
+
+#instagram {
+    background: url("../images/background/instagram.png") center no-repeat;
+}
+
+
+/*-------===============Header code End================----------------*/
+
+
+/*-------===============Nav code Start================----------------*/
+
+nav {
+    width: 1300px;
+    height: 96px;
+    padding: 0 0 0 18px;
+}
+
+nav #menu {
+    list-style: none;
+    width: 45%;
+    /* margin: 0px; */
+    float: left;
+}
+
+nav #menu li {
+    width: 125px;
+    display: inline-block;
+    padding-top: 75px;
+    text-align: center;
+}
+
+nav #menu li a {
+    text-decoration: none;
+    color: #b79322;
+    font-size: 18px;
+    top: -12px;
+    position: relative;
+    width: 125px;
+}
+
+nav #menu li a:hover {
+    color: #ffffff;
+}
+
+nav #menu li:hover {
+    background: url(../images/illustration/Untitled-10.png) no-repeat;
+    background-size: 125px 102px;
+}
+
+.logo {
+    width: 167px;
+    height: 96px;
+    padding-top: 15px;
+    padding-left: 22px;
+}
+
+.mybag {
+    width: 440px;
+    height: 80px;
+    float: right;
+    padding: 5px 0px 0 0;
+}
+
+.mybag ul {
+    list-style: none;
+}
+
+.mybag ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: #b31b1b;
+}
+
+#search {
+    width: 210px;
+    height: 31px;
+    background-color: #cfb569;
+    font-size: 14px;
+    padding-left: 37px;
+    /*position: relative;
+	top: -37px;
+	left: 100px;*/
+}
+
+::placeholder {
+    color: #94771b
+}
+
+#login {
+    color: #d3bb76;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    /*position: relative;
+	top: -60px;
+	left: 1075px;*/
+}
+
+#register {
+    color: #d3bb76;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    /*position: relative;
+	top: -60px;
+	left: 1075px;
+	padding-left :10px;*/
+}
+
+
+/*-------===============Nav code End================----------------*/
+
+
+/*-------===============Banner slide code Start================----------------*/
+
+.slidecontainer {
+    width: 100%;
+    height: 575px;
+    margin-top: 2px;
+}
+
+.slide p {
+    font-size: 59px;
+    font-weight: normal;
+    padding-right: 40px;
+    top: -500px;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    font-family: monospace;
+}
+
+.slide1 {
+    width: 1300px;
+    height: 667px;
+    position: relative;
+    clip: rect(0px, 1300px, 570px, 0px);
+}
+
+.shop {
+    width: 130px;
+    height: 54px;
+    background-color: #b31b1b;
+    float: right;
+    position: relative;
+    top: -425px;
+    right: -435px;
+}
+
+.shop a {
+    color: #fff;
+    font-size: 20px;
+    /* float: right; */
+    position: relative;
+    top: 16px;
+    left: 18px;
+    z-index: 1;
+}
+
+.shop img {
+    width: 40px;
+    height: 52px;
+    position: relative;
+    top: -25px;
+}
+
+
+/*-------===============Banner slide code End================----------------*/
+
+
+/*-------===============Sale Css Start================----------------*/
+
+.summersale img {
+    margin-top: 50px;
+    padding-left: 146px;
+}
+
+.newarrival img {
+    float: right;
+    padding-right: 162px;
+    margin-top: -391px;
+}
+
+
+/*-------===============Sale Css End================----------------*/
+
+
+/*-------===============Trending Css Start================----------------*/
+
+#trending {
+    width: 1170px;
+    height: 580px;
+}
+
+.trendcollection ul {
+    display: inline-block;
+    height: 558px;
+    width: 1170px;
+}
+
+.trendcollection ul li {
+    margin: 0 13px 0 13px;
+    height: 558px;
+    width: 360px;
+    list-style: none;
+    display: inline-block;
+}
+
+.trendcollection ul li h2 {
+    display: inline-block;
+    color: #b31b1b;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.trendcollection ul li p {
+    display: inline-block;
+}
+
+#leftarrow,
+#rightarrow {
+    margin-top: 235px;
+    width: 41px;
+    height: 50px;
+    position: absolute;
+}
+
+#leftarrow a {
+    display: inline-block;
+    width: 41px;
+    height: 50px;
+}
+
+#rightarrow a {
+    display: inline-block;
+    width: 41px;
+    height: 50px;
+}
+
+#leftarrow {
+    background: url("../images/background/arrow-left.png") no-repeat;
+    left: 80px;
+}
+
+#leftarrow:hover {
+    cursor: pointer;
+}
+
+#rightarrow:hover {
+    cursor: pointer;
+}
+
+#rightarrow {
+    background: url("../images/background/arrow-right.png") no-repeat;
+    margin-left: 1130px;
+}
+
+.lowcol {
+    float: right;
+    display: inline-block;
+    height: 24px;
+    width: 200px;
+}
+
+.lowcol img {
+    float: right;
+    margin-right: 4px;
+}
+
+.rating {
+    padding-left: 112px;
+}
+
+.arrow {
+    width: 45px;
+    height: 52px;
+    position: relative;
+    z-index: 1;
+    /* left: 224px; */
+    top: -333px;
+}
+
+
+/*-------===============Trending Css End================----------------*/
+
+
+/*-------===============Occasion Css Start================----------------*/
+
+.occasionlogo {
+    padding-left: 65px;
+    margin-top: 20px;
+}
+
+.middle {
+    padding-left: 60px;
+    margin-top: 18px;
+}
+
+figure {
+    display: inline-block;
+    /*padding-left: 32px;*/
+    padding: 0px 15px 0px 15px;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.content a {
+    text-decoration: none;
+    color: #b31b1b
+}
+
+
+/*-------===============Occasion Css End================----------------*/
+
+
+/*-------===============redbanner Css Start================----------------*/
+
+.redbanner {
+    width: 1300px;
+    height: 229px;
+    background-image: url(../images/background/bg.png);
+    margin-left: -36px;
+    margin-top: 22px;
+}
+
+.redbanner img {
+    padding-left: 505px;
+    margin-top: 13px;
+}
+
+.email {
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: 28px;
+    border: #FFFFFF solid 1px;
+    height: 57px;
+    width: 750px;
+}
+
+#emailid {
+    background: none;
+    color: #FFF;
+    font-size: 16px;
+    margin-left: 28px;
+    margin-top: 8px;
+    padding: 10px 403px 10px 10px;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+#signin {
+    background: none;
+    border-left: solid #FFFFFF 1px;
+    padding: 10px 10px 10px 25px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+/*-------===============redbanner Css End================----------------*/
+
+
+/*-------===============Category Css Start================----------------*/
+
+.category {
+    width: 1299px;
+    height: 164px;
+}
+
+.category ul {
+    list-style: none;
+    margin-top: 44px;
+}
+
+.category ul li {
+    border-right: 1px solid #ccc;
+    margin-left: 25px;
+    margin-top: -54px;
+    display: inline-block;
+    height: 162px;
+    width: 375px;
+}
+
+.category ul li h2 {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #aa1a1a;
+    padding-left: 82px;
+    margin-top: 44px;
+}
+
+.category ul p {
+    font-size: 15px;
+    padding-left: 82px;
+}
+
+.category ul img {
+    padding-left: 306px;
+    margin-top: -48px
+}
+
+
+/*-------===============Category Css End================----------------*/
+
+
+/*-------===============Footer Css Start================----------------*/
+
+footer {
+    width: 1300px;
+    height: 84px;
+    background: #000000;
+    margin-top: -45px;
+}
+
+.support h1 {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 86px;
+    padding-top: 20px;
+}
+
+.support ul {
+    padding-left: 86px;
+}
+
+.support ul li {
+    display: inline-block;
+    padding-right: 7px;
+    padding-top: 6px;
+    font-size: 14px;
+}
+
+.support ul li a {
+    text-decoration: none;
+    color: #ddb536;
+}
+
+.payment p {
+    float: right;
+    font-size: 18px;
+    margin-top: -45px;
+}
+
+.payment p a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 213px;
+}
+
+.payment ul li {
+    float: right;
+    padding-right: 178px;
+    margin-top: -24px;
+}
+
+.copy p {
+    color: #000000;
+    font-size: 12px;
+    margin-top: 24px;
+    text-align: center;
+}

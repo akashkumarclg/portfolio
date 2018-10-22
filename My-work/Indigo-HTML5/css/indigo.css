@@ -1,0 +1,430 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+a {
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+
+/*header_nav section css start here*/
+
+nav {
+    height: 80px;
+    background-color: #f6f8f9;
+}
+
+nav section {
+    width: 1170px;
+}
+
+h1 {
+    background: url("../images/background/indigo.png")no-repeat center center;
+    font-size: 26px;
+    height: 80px;
+    padding: 0 15px;
+    width: 80px;
+    text-indent: -9999px;
+}
+
+nav ul,
+header {
+    display: inline-block;
+}
+
+header {
+    float: left;
+}
+
+#flight {
+    width: 170px;
+    height: 100px;
+    background: url("../images/background/airliner.png") center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 2px;
+    right: 580px;
+    animation: landFlight 6s linear infinite;
+    transform: translate(0, 0) rotate(0deg);
+}
+
+@keyframes landFlight {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    20% {
+        transform: translate(-400px, -1px) rotate(0deg);
+    }
+    30% {
+        transform: translate(-450px, -2px) rotate(0deg);
+    }
+    38% {
+        transform: translate(-500px, -5px) rotate(10deg);
+    }
+    39% {
+        transform: translate(-510px, -10px) rotate(15deg);
+    }
+    40% {
+        transform: translate(-520px, -12px) rotate(20deg);
+    }
+    50% {
+        transform: translate(-600px, -50px) rotate(20deg);
+    }
+    60% {
+        transform: translate(-700px, -100px) rotate(20deg);
+    }
+    100% {
+        transform: translate(-2000px, -750px) rotate(20deg);
+    }
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    line-height: 80px;
+    height: 80px;
+    padding: 0 15px;
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: none;
+}
+
+
+/*header_nav section css end here*/
+
+
+/*banner section css start here*/
+
+.tamplate {
+    background: url("../images/background/hero.jpg")no-repeat center center;
+    background-size: cover;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+#down_learn {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2c3e50;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    z-index: 0;
+}
+
+#down_learn h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 30px 60px;
+    border: 1px solid;
+}
+
+#down_learn p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    max-width: 88%;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#down_learn li {
+    display: inline-block;
+}
+
+#down_learn li a {
+    color: #fff;
+    background-color: #269abc;
+    border-color: #1b6d85;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    font-size: 12px;
+    padding: 18px;
+    margin: 5px;
+}
+
+#down_learn li a:hover {
+    background-color: #2980b9;
+}
+
+#down_learn #down a {
+    background-color: #16a085;
+}
+
+#down_learn #down a:hover {
+    background-color: #0c8a71;
+}
+
+
+/*banner section css end here*/
+
+
+/*service css start here*/
+
+.our_services {
+    width: 1170px;
+    padding: 80px;
+}
+
+.services h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.services p {
+    margin-top: 15px;
+    margin-bottom: 80px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.col {
+    display: inline-block;
+    width: 360px;
+}
+
+.col h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 30px 0;
+    line-height: 1;
+}
+
+.col p {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col a {
+    margin-top: 10px;
+    background-color: #1abc9c;
+    display: inline-block;
+    color: #fff;
+    padding: 0 25px;
+    line-height: 40px;
+    font-size: 11px;
+}
+
+.col a:hover {
+    background-color: #16a085;
+}
+
+.col a:active:hover {
+    color: #fff;
+    background-color: #204d74;
+    border-color: #122b40;
+}
+
+.rocket {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 25px;
+    background: #FFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+.rocket img {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+
+/*service css end here*/
+
+.background_img {
+    background-attachment: fixed;
+}
+
+
+/*recent post css start here*/
+
+.post-img {
+    height: 150px;
+    overflow: hidden;
+}
+
+.post-img a {
+    padding: 0px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.post-img img {
+    max-width: 100%;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s;
+    backface-visibility: hidden;
+}
+
+.post-img:hover a {
+    opacity: 0.3;
+}
+
+.recent {
+    width: 357px;
+    margin: 0px 15px 0px 15px;
+}
+
+.recent>h3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 1;
+}
+
+.recent>p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 1.8;
+    width: 90%;
+    margin: 0px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+/*recent post css end here*/
+
+
+/*form section css start here*/
+
+#submit a {
+    margin-top: 10px;
+    background-color: #1abc9c;
+    display: inline-block;
+    color: #fff;
+    padding: 0 25px;
+    line-height: 40px;
+    font-size: 11px;
+}
+
+#submit a:hover {
+    background-color: #16a085;
+}
+
+#submit a:active:hover {
+    color: #fff;
+    background-color: #204d74;
+    border-color: #122b40;
+}
+
+.form-input {
+    border: 2px solid #cbd0d3;
+    border-radius: 0;
+    padding: 0 25px;
+    line-height: 45px;
+    height: 45px;
+    width: 32%;
+    display: inline-block;
+}
+
+form {
+    margin-left: 16%;
+    width: 85%;
+}
+
+textarea.form-input {
+    height: auto;
+}
+
+
+/*form section css end here*/
+
+
+/*footer section css start here*/
+
+footer {
+    background-color: #2c3e50;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #FFF;
+}
+
+#container {
+    width: 1170px;
+}
+
+footer #about {
+    width: 23%;
+    display: inline-block;
+}
+
+footer #usa_office {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+footer #uk_office {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.col3 h3 {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 10px;
+}

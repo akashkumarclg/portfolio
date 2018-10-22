@@ -1,0 +1,919 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Calibri';
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    width: 100%;
+    height: 47px;
+    background-color: #ffffff;
+}
+
+#menu {
+    width: 62px;
+    height: 47px;
+    background-color: #000000;
+}
+
+.menubar {
+    width: 36px;
+    height: 2px;
+    border: 1px solid white;
+    background-color: #000000;
+    margin-bottom: 13px;
+    position: relative;
+    top: 10px;
+}
+
+#tab-menu {
+    display: none;
+}
+
+#banner_mob {
+    width: 100%;
+    height: 238px;
+}
+
+#banner_tab {
+    display: none;
+    width: 100%;
+    height: 377px;
+}
+
+#banner_desk {
+    display: none;
+    width: 1033px;
+    height: 506px;
+}
+
+#profile {
+    width: 100%;
+    height: 521px;
+    background-color: #666666;
+}
+
+#profile h1 {
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    color: #f8e9e9;
+    text-align: center;
+    padding-top: 65px;
+}
+
+#profilepic {
+    width: 244px;
+    height: 254px;
+    background: url("../images/background/profilepic.png") no-repeat;
+    position: relative;
+    top: 60px;
+}
+
+#profile h2 {
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-style: normal;
+    color: #f8e9e9;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+#mob_tab {
+    width: 100%
+}
+
+#About_mob {
+    width: 100%;
+    height: 790px;
+    background: #0c0a0a;
+}
+
+#About_mob .about_title {
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-style: normal;
+    color: #f8e9e9;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+#About_mob .detail {
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-style: normal;
+    color: #f8e9e9;
+    text-align: left;
+    padding-top: 20px;
+}
+
+#About_mob .Hire a {
+    background-color: #009999;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-style: normal;
+    color: #f8e9e9;
+    padding: 10% 32% 8% 40%;
+    /* text-align: center; */
+    line-height: 107px;
+}
+
+#About_mob .resume a {
+    background-color: #009999;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-style: normal;
+    color: #f8e9e9;
+    padding: 10% 15% 8% 20%;
+    /* text-align: center; */
+    line-height: 107px;
+}
+
+.border {
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    padding: 4px;
+    margin: 5px 18px 5px 40px;
+    width: 75%;
+    height: 100px;
+}
+
+#About_tab {
+    display: none;
+}
+
+#About_desk {
+    display: none;
+}
+
+#profile_desk {
+    display: none;
+}
+
+#hiremenoe_desk {
+    display: none;
+}
+
+#skyblue {
+    width: 100%;
+    height: 4780px;
+    ;
+    background-color: #f1f5f5;
+}
+
+#skills {
+    width: 100%;
+    height: 1898px;
+    background-color: white;
+}
+
+#service {
+    width: 61%;
+    height: 89px;
+    border: 10px solid black;
+    margin-top: 25px;
+}
+
+#service p {
+    color: #010909;
+    font-family: 'Calibri';
+    font-size: 41px;
+    font-style: normal;
+    line-height: 89px;
+    text-align: center;
+}
+
+.s4 {
+    width: 269px;
+    height: 467px;
+    border: 10px solid;
+    border-radius: 7px;
+    margin-top: 28px;
+}
+
+#strength {
+    width: 89%;
+    height: 89px;
+    border: 10px solid black;
+    margin-top: 25px;
+}
+
+#strength p {
+    color: #010909;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 89px;
+    text-align: center;
+}
+
+#abab_mob {
+    width: 89%;
+    color: #010909;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#abab_tab {
+    display: none;
+}
+
+#dotted_desk,
+#dotted_tab {
+    display: none;
+}
+
+#dotted_mob {
+    font-weight: normal;
+    width: 100%;
+    font-family: Calibri;
+    font-size: 30px;
+    text-align: center;
+}
+
+#assi {
+    width: 100%;
+    height: 420px;
+    background: url(../images/illustration/assi.jpg) no-repeat top center;
+}
+
+#Accessibility {
+    padding-top: 170px;
+}
+
+
+#Accessibility h2 {
+    font-family: 'Calibri';
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Accessibility p {
+    width: 458px;
+    height: 103px;
+    font-family: 'Calibri';
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#Accessibility a {
+    margin: 10px 0px 0px 50%;
+    color: red;
+    font-family: 'Calibri';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#use {
+    width: 100%;
+    height: 386px;
+    background: url(../images/illustration/click.png) no-repeat top center;
+}
+
+#Usability {
+    padding-top: 130px;
+}
+
+#Usability h2 {
+    font-family: 'Calibri';
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Usability p {
+    width: 458px;
+    height: 103px;
+    font-family: 'Calibri';
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Usability a {
+    margin: 10px 0px 0px 50%;
+    color: red;
+    font-family: 'Calibri';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.WebGraphics50 {
+    background: url('../images/illustration/50.jpg') no-repeat;
+    width: 137px;
+    height: 134px;
+}
+
+#percentage_skill h2 {
+    line-height: 134px;
+    text-align: center;
+}
+
+#percentage_skill p {
+    margin: 20px 0px 20px 145px;
+    font-family: 'Calibri';
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.Responsive70 {
+    background: url('../images/illustration/70.jpg') no-repeat;
+    width: 137px;
+    height: 134px;
+}
+
+.WebDesign65 {
+    background: url('../images/illustration/65.jpg') no-repeat;
+    width: 137px;
+    height: 134px;
+}
+
+.Wordpress60 {
+    background: url('../images/illustration/60.jpg') no-repeat;
+    width: 137px;
+    height: 134px;
+}
+
+#percentage_skill-tab {
+    display: none;
+}
+
+#fb_public {
+    width: 430px;
+    height: 28px;
+    margin: 35px 0px 0px 12px;
+    border-bottom: 5px solid #336699;
+}
+
+#fb {
+    background: url('../images/illustration/fb.jpg') no-repeat;
+    height: 26px;
+    display: inline-block;
+    width: 81px;
+    margin-left: 15px;
+}
+
+#public {
+    background: url('../images/illustration/public.jpg') no-repeat;
+    height: 26px;
+    display: inline-block;
+    width: 81px;
+    margin-left: 28px;
+}
+
+#f2 ul {
+    list-style-image: url('../images/illustration/profile.jpg');
+    width: 80%;
+    margin: 20px 0px 0px 60px;
+}
+
+#f1 ul a {
+    color: #f40909;
+    font-family: 'Calibri';
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-left: 60%;
+}
+
+#f1 ul li {
+    font-family: 'Calibri';
+    font-size: 12px;
+    font-weight: normal;
+    color: #336699;
+}
+
+@media only screen and (min-width: 481px) {
+    #menu {
+        display: none;
+    }
+    .menubar {
+        display: none;
+    }
+    #tab-menu {
+        width: 100%;
+        height: 53px;
+        display: block;
+        background-color: #000000;
+    }
+    #tab-menu ul {
+        width: 685px;
+        padding-left: 30px;
+        line-height: 53px;
+        text-align: center;
+    }
+    #tab-menu li {
+        display: inline-flex;
+        padding-right: 60px;
+    }
+    #tab-menu li a {
+        color: #ede5e5;
+    }
+    #banner_mob {
+        display: none;
+        width: 100%;
+        height: 238px;
+    }
+    #banner_tab {
+        display: inline-block;
+    }
+    #banner_desk {
+        display: none;
+    }
+    #profile_desk {
+        display: none;
+    }
+    #profile {
+        width: 100%;
+        height: 479px;
+        background-color: #666666;
+    }
+    #About_mob {
+        display: none;
+    }
+    #About_tab {
+        width: 100%;
+        height: 477px;
+        display: block;
+        background: #0c0a0a;
+    }
+    #About_tab .about_title {
+        font-family: 'Calibri';
+        font-size: 30px;
+        font-style: normal;
+        color: #f8e9e9;
+        text-align: center;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
+    #About_tab .detail {
+        width: 594px;
+        font-family: 'Calibri';
+        font-size: 30px;
+        font-style: normal;
+        color: #f8e9e9;
+        text-align: left;
+        padding-top: 20px;
+    }
+    #About_tab .Hire a {
+        background-color: #009999;
+        font-family: 'Calibri';
+        font-size: 30px;
+        font-style: normal;
+        color: #f8e9e9;
+        padding: 9px 189px 9px 136px;
+        /* text-align: center; */
+        line-height: 51px;
+    }
+    #About_tab .resume a {
+        background-color: #009999;
+        font-family: 'Calibri';
+        font-size: 30px;
+        font-style: normal;
+        color: #f8e9e9;
+        padding: 9px 147px 9px 52px;
+        /* text-align: center; */
+        line-height: 51px;
+    }
+    .border {
+        border: 2px solid #ffffff;
+        border-radius: 0px;
+        padding: 4px;
+        margin: 15px 18px 15px 110px;
+        width: 422px;
+        height: 51px;
+    }
+    #hiremenoe_desk {
+        display: none;
+    }
+    #skyblue {
+        width: 100%;
+        height: 2770px;
+        background-color: white;
+    }
+    #skills {
+        width: 650px;
+        height: 2730px;
+    }
+    #graphics,
+    #boot {
+        float: left;
+    }
+    #webservice,
+    #webdesign {
+        float: right;
+    }
+    #abab_mob {
+        display: none;
+    }
+    #abab_tab {
+        display: block;
+        width: 73%;
+        color: #010909;
+        font-family: 'Calibri';
+        font-size: 24px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+    #dotted_tab {
+        display: block;
+        font-weight: bold;
+        width: 600px;
+        font-family: Calibri;
+        font-size: 24px;
+        text-align: center;
+    }
+    #dotted_desk,
+    #dotted_mob {
+        display: none;
+    }
+    #assi {
+        width: 50%;
+        height: 310px;
+        background: url(../images/illustration/assi_tab.jpg) no-repeat top center;
+        float: left;
+        margin-top: 40px;
+    }
+    #Accessibility {
+        padding-top: 130px;
+    }
+    #Accessibility h2 {
+        font-size: 30px;
+    }
+    #Accessibility p {
+        width: 309px;
+        height: 103px;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    #Accessibility a {
+        margin: 10px 0px 0px 40%;
+        color: #006699;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    #use {
+        width: 50%;
+        height: 310px;
+        float: right;
+        margin-top: 40px;
+    }
+    #Usability h2 {
+        font-size: 30px;
+    }
+    #Usability p {
+        width: 234px;
+        height: 103px;
+        font-size: 14px;
+        margin-bottom: 4px;
+        text-align: left;
+    }
+    #Usability a {
+        margin: 10px 0px 0px 40%;
+        color: #006699;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    #percentage_skill {
+        display: none;
+    }
+    #percentage_skill-tab {
+        display: block;
+    }
+    .M1 {
+        height: 137px;
+        width: 50%;
+        float: left;
+        margin-top: 40px;
+    }
+    .M2 {
+        height: 137px;
+        width: 50%;
+        float: right;
+        margin-top: 40px;
+    }
+    .WebGraphics50 {
+        background: url('../images/illustration/50.jpg') no-repeat;
+        width: 137px;
+        height: 134px;
+        float: right;
+    }
+    .Responsive70 {
+        background: url('../images/illustration/70.jpg') no-repeat;
+        width: 137px;
+        height: 134px;
+        float: right;
+    }
+    .WebDesign65 {
+        background: url('../images/illustration/65.jpg') no-repeat;
+        width: 137px;
+        height: 134px;
+        float: right;
+    }
+    .Wordpress60 {
+        background: url('../images/illustration/60.jpg') no-repeat;
+        width: 137px;
+        height: 134px;
+        float: right;
+    }
+    #percentage_skill-tab h2 {
+        line-height: 134px;
+        text-align: center;
+    }
+    #percentage_skill-tab p {
+        /*margin: 20px 0px 20px 145px;**/
+        font-family: 'Calibri';
+
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+        line-height: 135px;
+    }
+    #fb_public {
+        width: 570px;
+        height: 28px;
+        margin: 35px 0px 0px 82px;
+        border-bottom: 5px solid #336699;
+    }
+    #fb {
+        background: url('../images/illustration/fb.jpg') no-repeat;
+        height: 26px;
+        display: inline-block;
+        width: 81px;
+        margin-left: 15px;
+    }
+    #public {
+        background: url('../images/illustration/public.jpg') no-repeat;
+        height: 26px;
+        display: inline-block;
+        width: 81px;
+        margin-left: 28px;
+    }
+    #f1 ul {
+        list-style-image: url('../images/illustration/profile.jpg');
+        width: 85%;
+        margin: 20px 0px 0px 80px;
+    }
+    #f1 ul a {
+        color: #990000;
+        font-family: 'Calibri';
+        font-size: 18px;
+        font-weight: normal;
+        margin-left: 60%;
+    }
+    #f1 ul li {
+        font-family: 'Calibri';
+        font-size: 18px;
+        font-weight: normal;
+        color: #336699;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #tab-menu {
+        width: 1030px;
+        height: 75px;
+    }
+    #tab-menu ul {
+        width: 864px;
+        /*padding-left: 105px;*/
+        line-height: 75px;
+        text-align: center;
+    }
+    #tab-menu li a {
+        font-size: 24px;
+    }
+    #banner_mob {
+        display: none;
+        width: 100%;
+        height: 238px;
+    }
+    #banner_tab {
+        display: none;
+    }
+    #banner_desk {
+        display: inline-block;
+        margin-top: 29px;
+        margin-left: 159px;
+    }
+    #profile {
+        width: 511px;
+        height: 552px;
+        background-color: #666666;
+        float: left;
+    }
+    #About_tab,
+    #About_mob {
+        display: none;
+    }
+    #mob_tab {
+        width: 1030px;
+        height: 552px;
+    }
+    /*#profile_desk{
+    width: 1030px;
+    height: 552px;
+    display: block;}*/
+    #About_desk {
+        width: 515px;
+        height: 552px;
+        display: block;
+        float: right;
+        background: #0c0a0a;
+    }
+    #About_desk .about_title {
+        font-family: 'Calibri';
+        font-size: 36px;
+        font-style: normal;
+        color: #f8e9e9;
+        text-align: center;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
+    #About_desk .detail {
+        width: 456px;
+        font-family: 'Calibri';
+        font-size: 24px;
+        font-style: normal;
+        color: #f8e9e9;
+        text-align: left;
+        padding-top: 50px;
+        margin-bottom: 58px;
+    }
+    #About_desk a {
+        background-color: #009999;
+        font-family: 'Calibri';
+        font-size: 12px;
+        font-style: normal;
+        color: #0c0a0a;
+        padding: 9px 16px 9px 16px;
+        /* text-align: center; */
+        line-height: 51px;
+    }
+    #About_desk .Hire {
+        width: 357px;
+    }
+    .border {
+        border: 2px solid #ffffff;
+        border-radius: 0px;
+        padding: 4px;
+        margin: 15px 18px 15px 110px;
+        width: 422px;
+        height: 51px;
+    }
+    #hiremenoe_desk {
+        width: 1052px;
+        height: 262px;
+        display: block;
+        background-color: #666666;
+        margin-top: 20px;
+    }
+    #hiremenoe_desk h2 {
+        color: #f3e9e9;
+        font-family: 'Calibri';
+        font-size: 36px;
+        font-weight: normal;
+    }
+    #hiremenoe_desk p {
+        color: #f3e9e9;
+        font-family: 'Calibri';
+        font-size: 24px;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    #hiremenoe_desk a {
+        font-family: 'Calibri';
+        font-size: 24px;
+        font-weight: normal;
+        margin-left: 32px;
+    }
+    #skyblue {
+        height: 1442px;
+    }
+    #skills {
+        width: 1080px;
+        height: 1442px;
+    }
+    #service {
+        width: 228px;
+        height: 44px;
+    }
+    #service p {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .s4 {
+        width: 238px;
+        height: 480px;
+        margin-right: 12px;
+    }
+    .s4 img {
+        width: 238px;
+        height: 480px;
+    }
+    #graphics,
+    #boot,
+    #webservice,
+    #webdesign {
+        float: left;
+    }
+    #strength {
+        width: 144px;
+        height: 28px;
+        border: 8px solid black;
+    }
+    #strength p {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 28px;
+    }
+    #abab_tab {
+        display: block;
+        width: 100%;
+        color: #010909;
+        font-family: 'Calibri';
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+    #dotted_desk {
+        display: block;
+        font-weight: bold;
+        width: 762px;
+        font-family: Calibri;
+        font-size: 24px;
+        text-align: center;
+    }
+    #dotted_mob,
+    #dotted_tab {
+        display: none;
+    }
+    #assi_use {
+        width: 50%;
+        float: left;
+    }
+    #f1 {
+        float: right;
+        width: 50%;
+    }
+    #Accessibility p {
+        width: 285px;
+        font-size: 15px;
+    }
+    #Accessibility a {
+        color: red;
+    }
+    #Usability a {
+        color: red;
+    }
+    .M2 {
+        height: 121px;
+        width: 22%;
+        float: left;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .M1 {
+        height: 121px;
+        width: 22%;
+        float: left;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    #percentage_skill-tab p {
+        position: absolute;
+    }
+    #percentage_skill-tab h2 {
+        display: none;
+    }
+    #fb_public {
+        width: 310px;
+        height: 28px;
+        margin: 35px 0px 0px 130px;
+        border-bottom: 5px solid #336699;
+    }
+    #f1 ul li {
+        color: #000000;
+    }
+    #f1 ul a {
+        color: red;
+        font-size: 10px;
+    }
+}

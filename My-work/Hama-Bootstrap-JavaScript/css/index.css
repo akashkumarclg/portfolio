@@ -1,0 +1,1348 @@
+* {
+    margin: 0px auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+ul,
+#contact ul {
+    list-style-type: none;
+}
+
+.inline {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none!important;
+    transition: all .2s ease-in-out;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.marginbottom50 {
+    margin-bottom: 50px;
+}
+
+.marginbottom30 {
+    margin-bottom: 30px;
+}
+
+.shop-button {
+    background-color: #fab502 !important;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    color: #fff!important;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.shop-button:hover {
+    border: none;
+    color: #fff!important;
+    background: #333!important;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@keyframes hvr-pulse-grow {
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+
+/*.header-top{
+        padding-top: 57px;
+    padding-bottom: 60px;
+}*/
+
+
+/* header css start here*/
+
+.logo1 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu1 {
+    display: inline-block;
+    position: absolute !important;
+    left: 12px;
+    top: 20px;
+}
+
+.icon1 {
+    position: relative;
+    display: inline-block;
+    float: right !important;
+    top: 0px;
+    right: -30px;
+}
+
+.logo-icon svg {
+    height: 44px;
+    width: 44px;
+    background: #fab502;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.logo-icon svg path {
+    fill: #fff;
+}
+
+#logo h1 a {
+    color: #fff;
+    font-size: 32px;
+    font-family: "Oswald";
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 14px!important;
+    font-weight: 400;
+    height: auto!important;
+    line-height: inherit!important;
+    color: #333!important;
+    padding: 8px !important;
+}
+
+
+/* SUBmenu css*/
+
+.sub-menu li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sub-menu>li>a {
+    display: block;
+    padding: 10px 15px !important;
+    position: relative;
+    color: #555 !important;
+}
+
+.fuzzy {
+    display: none;
+}
+
+.fuzzy-active {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: .5;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+.top-right {
+    margin-top: 15px;
+}
+
+#social_icon li#search i {
+    color: #fff;
+    font-size: 15px;
+}
+
+#social_icon li#login i {
+    color: #fff;
+    font-size: 15px;
+}
+
+#social_icon li#cart i {
+    color: #fff;
+    font-size: 15px;
+}
+
+#social_icon li {
+    margin-right: 22px;
+}
+
+#social_icon li i:hover {
+    color: #fab502 !important;
+}
+
+#social_icon {
+    margin-top: 15px;
+    display: inline-block;
+    float: right;
+}
+
+.mini-cart-number.set-cart-number {
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    right: 68px;
+    border-radius: 50%;
+    background-color: #fab502;
+    font-size: 12px;
+    position: absolute;
+    top: 8px;
+    color: #fff;
+    line-height: 17px;
+}
+
+.button {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.button .icon-bar {
+    background-color: #fab502;
+    width: 30px;
+    height: 4px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.button .icon-bar+.icon-bar {
+    margin-top: 10px !important;
+}
+
+
+/* header css End here*/
+
+
+/* video banner css start here*/
+
+#video-banner::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-info {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.banner-info h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    margin-bottom: 11px;
+}
+
+.banner-info h4 {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0px;
+    margin-top: 13px;
+    margin-bottom: 27px;
+    font-weight: 400;
+}
+
+.banner-info p {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    letter-spacing: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 33px;
+}
+
+.banner-info a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+/* video banner css End here*/
+
+
+/* product by catagroies css start here*/
+
+.upper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.adv-thumb-link>img {
+    display: block;
+    width: 100%;
+    transition: all .3s ease-out 0s;
+    -webkit-transition: all .3s ease-out 0s;
+}
+
+.zoom-image:hover .adv-thumb-link>img {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.pull .adv-thumb-link::before {
+    background: rgba(0, 0, 0, 0.36);
+}
+
+.pull:hover .adv-thumb-link::after,
+.pull:hover .adv-thumb-link::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.pull .adv-thumb-link::before {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all .3s ease-out 0s;
+}
+
+.pull .adv-thumb-link::after {
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all .3s ease-out 0s;
+}
+
+.pull .adv-thumb-link::after,
+.pull .adv-thumb-link::before {
+    width: 0;
+    height: 0;
+    background: rgba(0, 0, 0, .1);
+    content: "";
+    position: absolute;
+    z-index: 1;
+    transition: all .3s ease-out 0s;
+}
+
+.upper-wrapper .banner-info {
+    text-align: center;
+    bottom: -20px;
+    top: auto;
+    left: 50px;
+    right: 50px;
+    transition: all 0.5s ease-out 0s;
+}
+
+.upper-wrapper:hover .banner-info {
+    bottom: 60px;
+}
+
+.upper-wrapper .banner-info:before {
+    content: "";
+    border-top: 5px solid #fab502;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    width: 50px;
+    transform: translateX(-50%);
+}
+
+.upper-wrapper .banner-info p:first-child {
+    margin: 12px 0px 10px 0px;
+}
+
+.banner-info a {
+    font-size: 16px;
+    font-family: "Oswald";
+    color: #fff!important;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.upper-wrapper .banner-info h4 {
+    font-size: 14px;
+    font-family: "Oswald";
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.hover_button .shop-button {
+    opacity: 0;
+}
+
+.upper-wrapper.hover_button:hover .shop-button {
+    opacity: 1;
+    margin-top: 30px;
+}
+
+.center_banner .banner-info h4 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    font-size: 14px;
+    color: #cdcdce;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 28px;
+}
+
+.center_banner .banner-info h2 {
+    font-family: "Oswald";
+    letter-spacing: 3px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.center_banner .banner-info {
+    top: 80px;
+}
+
+.upper-wrapper .banner-info p:first-child a:hover {
+    color: #fab502 !important;
+}
+
+
+/* product by catagroies css End here*/
+
+
+/* slide show css start here*/
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.slide0 {
+    float: left;
+    padding: 2px 15px;
+}
+
+.block {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.slide1 {
+    width: 4688px !important;
+    left: 0px;
+    display: block;
+    transition: all 800ms ease 0s;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-heading>h3.title18 {
+    text-align: center !important;
+    font-size: 18px !important;
+    font-family: "Oswald";
+    letter-spacing: 3px !important;
+    margin-bottom: 30px !important;
+    font-weight: 700;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.clearfix {
+    padding: 0px;
+}
+
+.sellere-btn {
+    padding: 8px 20px 8px;
+    margin: 0 2px 10px 0px;
+    background: #ededed !important;
+}
+
+.sellere-btn:hover,
+.sellere-btn.active {
+    background: #ffc300 !important;
+    transition: all .3s ease-out 0s;
+    -webkit-transition: all .3s ease-out 0s;
+}
+
+.sellere-btn a {
+    font-size: 13px !important;
+    font-weight: 400;
+    text-transform: none;
+    color: #1b2b3a;
+}
+
+.sellere-btn:hover a,
+.sellere-btn.active a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.product-gallery {
+    position: absolute;
+    width: calc(100% - 60px);
+    left: 7%;
+    transform: translateX(7%);
+    max-width: 201px;
+    top: 180px;
+    z-index: 7;
+}
+
+.product-image-link::before {
+    background: rgba(0, 0, 0, .2);
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    transition: all .3s ease-out 0s;
+    -webkit-transition: all .3s ease-out 0s;
+}
+
+.product-image-link img {
+    width: 100%;
+}
+
+.product-image {
+    padding: 10px !important;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image:hover .product-image-link::before {
+    opacity: 1;
+}
+
+.product-gallery ul li {
+    border: 1px solid #fff;
+    margin-right: 4px !important;
+}
+
+.product-gallery ul li.active {
+    border: 1px solid #f3b71b;
+    margin-right: 4px !important;
+}
+
+.item-product:hover {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+}
+
+.item-product:hover .product-info {
+    border: 1px solid #e5e5e5;
+    border-top: 1px solid #fff;
+}
+
+.item-product:hover .product-image {
+    border-bottom: 1px solid #fff;
+}
+
+.item-product .product-info {
+    padding: 17px 10px 10px 0px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.product-title {
+    line-height: 17px !important;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.product-title a {
+    color: #333;
+}
+
+.product-title a:hover {
+    color: #fab502;
+    text-decoration: none !important;
+}
+
+.product-price,
+.rating,
+.detail {
+    margin-bottom: 10px;
+}
+
+.product-price span {
+    color: #fab502;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.product-price del {
+    color: #ccc;
+    font-size: 14px;
+}
+
+a.add2cart-link,
+a.more-detail {
+    display: inline-block;
+    height: 35px;
+    line-height: 33px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    border-radius: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.add2cart-link,
+.more-detail {
+    background: #fff !important;
+    color: #555 !important;
+    transition: all .2s ease-in-out;
+}
+
+.add2cart-link:hover,
+.more-detail:hover,
+.view-all a:hover {
+    background: #fab502 !important;
+    color: #fff !important;
+    border: 0px;
+}
+
+.add-2-cart,
+.detail {
+    display: inline-block;
+}
+
+.heart-exchange-search {
+    opacity: 0;
+}
+
+.heart-exchange-search a {
+    margin-right: 15px;
+}
+
+.heart-exchange-search a {
+    color: #fab502 !important;
+}
+
+.heart-exchange-search a:hover {
+    color: #333!important;
+}
+
+.item-product:hover .heart-exchange-search {
+    opacity: 1;
+}
+
+.view-all {
+    margin-bottom: 70px;
+}
+
+.view-all a {
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #222;
+    text-transform: uppercase;
+    padding: 10px 77px;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+
+/*slide show css Ennd here*/
+
+
+/*********parallex image1 css************/
+
+#parallex1 {
+    background-image: url("../images/background/padaa1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.parallex1::after {
+    display: block !important;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background: #0000004f;
+}
+
+#number {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: 25px;
+}
+
+#number h3 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 97px;
+}
+
+#parallex1-content h3 {
+    font-size: 18px;
+    font-family: "Oswald";
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 39px;
+}
+
+#parallex1-content h2 {
+    font-family: "Oswald";
+    color: #fff;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#parallex1-content #a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    margin-bottom: 24px;
+}
+
+
+/*********parallex image1 css End here************/
+
+
+/*********second banner css************/
+
+#right-content {
+    background-color: #f0f0f0;
+    height: 500px;
+    /* height: auto; */
+    max-width: 100%;
+}
+
+.banner-infor h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 3px;
+    font-family: "Oswald";
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+.banner-infor {
+    position: absolute;
+    text-align: left;
+    left: 14px;
+    bottom: auto;
+    top: 118px;
+    right: 90px;
+    width: 300px;
+}
+
+.banner-infor h2 {
+    position: relative;
+    padding-top: 19px;
+    margin-top: 17px;
+    font-size: 30px;
+    font-family: "Oswald";
+    letter-spacing: 6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-infor h2:before {
+    content: "";
+    border-top: 5px solid #fab502;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    width: 50px;
+    transform: none;
+}
+
+.banner-infor p {
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+#left-banner img {
+    width: 329px !important;
+}
+
+#left-banner {
+    overflow: hidden;
+}
+
+
+/*********second banner css end************/
+
+
+/*footer css start here*/
+
+footer {
+    background-color: #000;
+}
+
+#footer-menu a,
+.list a {
+    color: #999 !important;
+    position: relative;
+}
+
+#footer-menu ul li a:before,
+.list ul li a:before {
+    transition: all .3s ease-out 0s;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    border: 0.5px dashed #fff;
+    width: calc(100% - 16px);
+    overflow: hidden;
+    opacity: 0;
+}
+
+.list ul li a:before {
+    left: -17px;
+    right: 19px;
+    width: calc(100% + 25px);
+}
+
+#footer-menu ul li a:after {
+    content: '-';
+    padding: 0 6px;
+    color: #999;
+}
+
+#footer-menu a:hover,
+.list a:hover {
+    color: #fff !important;
+}
+
+#footer-menu ul li a:hover:before,
+.list ul li a:hover:before {
+    overflow: visible;
+    opacity: 1;
+}
+
+#footer-header:after,
+#footer-middle:after {
+    content: "";
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    position: relative;
+    display: block;
+    background: #1a1a1a;
+    width: calc(100% - 30px);
+}
+
+.title-footer {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+.list ul {
+    list-style-type: disc;
+    color: #cccccc;
+    padding-left: 19px;
+}
+
+.list ul li {
+    margin-bottom: 12px;
+}
+
+#contact i {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    width: 30px;
+    color: #ccc;
+}
+
+#contact ul li {
+    margin-bottom: 22px;
+    color: #999 !important;
+}
+
+#submit a {
+    background: #fab502;
+    text-align: center;
+    padding: 12px 16px;
+}
+
+#email {
+    background: #1a1a1a;
+}
+
+#email input {
+    display: inline-block;
+    height: 40px;
+    border: none;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    padding: 0 20px;
+    background: transparent;
+    width: 280px;
+}
+
+#submit {
+    width: 50px;
+    display: inline-block;
+}
+
+#submit i {
+    color: #fff !important;
+}
+
+#footer-social-icon .icon-social a {
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+#footer-social-icon .icon-social a:hover {
+    top: -5px;
+}
+
+.icon-social .fa-facebook {
+    background-color: #4968a9;
+}
+
+.icon-social .fa-twitter {
+    background-color: #11c2ea;
+}
+
+.icon-social .fa-linkedin {
+    background-color: #3f93d3;
+}
+
+.icon-social .fa-google-plus {
+    background-color: #ed321e;
+}
+
+.icon-social .fa-pinterest {
+    background-color: #ed001c;
+}
+
+.icon-social .fa-skype {
+    background-color: #11ddea;
+}
+
+.icon-social a i {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.icon-social a i:before {
+    line-height: 40px;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 767px) {
+    /*********header+nav css************/
+    .mobile-container {
+        background-color: #000000;
+        height: 134px;
+        z-index: 2;
+        position: relative;
+    }
+    .navbar-collapse ul {
+        transition: all .3s ease-out 0s !important;
+        -webkit-transform: translateX(-320px) !important;
+        transform: translateX(-320px)!important;
+    }
+    .button::after,
+    .button::before {
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 30px;
+        top: 50%;
+        -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        background-color: #ffb800;
+    }
+    .button::before {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+    .button.active1 span {
+        display: none;
+    }
+    .button.active1::before {
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+    .button.active1::after {
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+    .button::after {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+    a.button {
+        transition: all .3s ease-out 0s !important;
+        -webkit-transform: translateX(0px)!important;
+        transform: translateX(0px)!important;
+    }
+    a.button.active1 {
+        -webkit-transform: translateX(500px)!important;
+        transform: translateX(500px)!important;
+        left: 260px;
+        top: -16px;
+        position: relative;
+        z-index: 999999;
+    }
+    .active1 ul {
+        -webkit-transform: translateX(0)!important;
+        transform: translateX(0)!important;
+    }
+    .nav>li>a:hover,
+    .nav>li>a:focus {
+        text-decoration: none;
+        background-color: transparent !important;
+        color: #df412f !important;
+    }
+    nav ul li.nav-list-stle {
+        display: block;
+        margin: 0 15px!important;
+        padding: 0!important;
+        border-bottom: 1px solid #e5e5e5!important;
+    }
+    .navbar-nav {
+        margin: 0px !important;
+    }
+    .main-nav {
+        width: 290px;
+        position: fixed;
+        top: 0px;
+        overflow: auto;
+        bottom: 0;
+        background: #fff;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .1);
+        margin-top: 0px !important;
+        left: 0px;
+        z-index: 999;
+    }
+    .btnplus {
+        cursor: pointer;
+    }
+    .btnplus::after {
+        content: "\f067";
+        top: 0;
+        line-height: 40px;
+        width: 45px;
+        text-align: center;
+        right: -15px;
+        position: absolute;
+        font-family: fontAwesome;
+    }
+    #social_icon li {
+        margin-right: 15px;
+    }
+    .mini-cart-number.set-cart-number {
+        right: 15px;
+    }
+    .icon1 {
+        right: 0px;
+    }
+    /*********header+nav css End************/
+    #video-banner::before {
+        bottom: 265px;
+    }
+    .margintop20 {
+        margin-top: 20px !important;
+    }
+    .banner-info {
+        top: -240px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    /*********header+nav css start************/
+    .fixed-header {
+        position: fixed !important;
+        top: -150px;
+        z-index: 9998;
+        -webkit-transition: top 0.5s ease-out 0s !important;
+        transition: top 0.5s ease-out 0s !important;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 125px;
+        background: #333;
+    }
+    .active {
+        top: -40px !important;
+    }
+    .logo1 {
+        display: inline-block;
+        position: relative;
+    }
+    .button {
+        display: none;
+    }
+    nav ul li.drop>a::after {
+        content: "\f107";
+        font-family: fontAwesome;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+        color: #fab502!important;
+    }
+    .menu1 {
+        display: inline-block;
+        position: absolute !important;
+        left: 0px !important;
+        top: 65px;
+    }
+    .nav>li>a {
+        color: #fff !important;
+    }
+    .sub-menu {
+        background: #fff;
+        list-style: none;
+        padding: 0;
+        width: 200px;
+        left: 0;
+        position: absolute;
+        top: 100%;
+        text-align: left;
+        margin: 30px 0 0;
+        transition: all .3s ease-out 0s;
+        z-index: 999;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    }
+    .collapse.in {
+        margin: 0px;
+    }
+    .collapsing {
+        position: absolute !important;
+    }
+    .sub-menu>li>a {
+        display: block;
+        padding: 10px 15px !important;
+        position: relative;
+        color: #555 !important;
+    }
+    .icon1 {
+        position: relative;
+        display: inline-block;
+        float: right !important;
+        top: 0px;
+        right: 0px;
+    }
+    #social_icon {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    #social_icon li {
+        margin-right: 16px;
+    }
+    .mini-cart-number.set-cart-number {
+        right: 17px;
+        top: -7px;
+    }
+    /*********header+nav css End************/
+    #video-banner {
+        position: relative;
+        top: -134px;
+        z-index: 2;
+        right: 0px;
+        left: 0px;
+    }
+    .margintop60 {
+        margin-top: -60px !important;
+    }
+    #parallex1-content {
+        text-align: left !important;
+    }
+    #left-banner img {
+        width: 407px !important;
+        height: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    /*********header+nav css start************/
+    .logo1 {
+        left: 0;
+    }
+    .menu1 {
+        left: 20% ! important;
+        top: 45px;
+    }
+    .icon1 {
+        right: -2%;
+    }
+    .header-top {
+        padding: 40px 0px 0px 40px;
+    }
+    .logo-icon svg {
+        height: 44px;
+        width: 44px;
+        background: #fab502;
+        border-radius: 50%;
+        vertical-align: top;
+        margin-top: 2px;
+    }
+    .logo-icon svg path {
+        fill: #fff;
+    }
+    #logo h1 a {
+        color: #fff;
+        font-size: 32px;
+        font-family: "Oswald";
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .nav>li>a:hover,
+    .nav>li>a:focus {
+
+        text-decoration: none;
+        background-color: transparent !important;
+        color: #fab502;
+    }
+    nav ul li.drop>a::after {
+        content: "\f107";
+        font-family: fontAwesome;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    nav ul li a {
+        padding: 10px 16px !important;
+        color: #fff!important;
+    }
+    .top-right {
+        margin-top: 15px;
+    }
+    #social_icon li#search i {
+        color: #fff;
+        font-size: 15px;
+    }
+    #social_icon li#login i {
+        color: #fff;
+        font-size: 15px;
+    }
+    #social_icon li#cart i {
+        color: #fff;
+        font-size: 15px;
+    }
+    #social_icon li {
+        margin-right: 24px;
+    }
+    #social_icon li i:hover {
+        color: #fab502 !important;
+    }
+    #social_icon {
+        margin-top: 15px;
+    }
+    .mini-cart-number.set-cart-number {
+        width: 17px;
+        height: 17px;
+        text-align: center;
+        right: 25px;
+        border-radius: 50%;
+        background-color: #fab502;
+        font-size: 12px;
+        position: absolute;
+        top: 8px;
+        color: #fff;
+        line-height: 17px;
+    }
+    .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #cdda0e;
+    }
+    /*********header+nav css start************/
+    .margin-bottom50 {
+        margin-bottom: 70px;
+    }
+    #left-banner img {
+        width: 700px !important;
+    }
+    #email input {
+        width: 320px;
+    }
+    #footer-social-icon {
+        text-align: right;
+    }
+}

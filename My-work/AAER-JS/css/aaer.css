@@ -1,0 +1,552 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+/*banner and logo start */
+
+header {
+	background: url("../images/background/AsianAcademyHeader.jpg") no-repeat top left;
+	height: 459px;
+	width: 1280px;
+}
+
+#logo {
+	width: 192px;
+	height: 352px;
+	margin-left: 160px !important;
+	z-index: 3;
+}
+
+nav {
+	height: 36px;
+	background-color: #ffffff;
+	margin-top: -298px;
+}
+
+nav ul {
+	width: 754px;
+	margin-left: 365px;
+	/* margin-top: 10px; */
+	line-height: 39px;
+}
+
+nav ul li {
+	display: inline-block;
+	background: url("../images/background/bar.jpg") no-repeat center right;
+}
+
+nav ul li:last-child {
+	background: none;
+}
+
+nav ul li a {
+	padding: 0px 24px;
+	font-family: 'Arial';
+	font-size: 14px;
+	font-weight: normal;
+	color: black;
+}
+
+
+/*banner and logo End */
+
+
+/*Orange Box and About AAER start */
+
+#aboutcsllus {
+	width: 1280px;
+	height: 187px;
+	background-color: #00105f;
+}
+
+#callus {
+	width: 188px;
+	height: 187px;
+	background-color: #f99310;
+	float: left;
+	margin-left: 160px !important;
+	border-radius: 7px 7px 0px 0px;
+}
+
+#callus p#Admissions {
+	width: 140px;
+	height: 82px;
+	font-family: 'Arial';
+	font-size: 19px;
+	font-weight: normal;
+	color: #ffffff;
+	margin: 19px 0px 16px 22px;
+	background: url("../images/background/AsianAcademyArrow.jpg") no-repeat right 47px;
+}
+
+#callus p#Call {
+	width: 124px;
+	height: 56px;
+	font-family: 'Arial';
+	font-size: 14px;
+	font-weight: normal;
+	color: #ffffff;
+	margin: 19px 0px 16px 22px;
+}
+
+#callus p#Call span {
+	font-size: 18px;
+}
+
+#about {
+	width: 745px;
+	height: 187px;
+	background-color: #ffffff;
+	margin-left: 375px;
+	border-radius: 7px 7px 0px 0px;
+}
+
+#about h1 {
+	font-family: 'Arial';
+	font-size: 19px;
+	font-weight: normal;
+	color: black;
+	padding: 19px 0px 10px 28px;
+}
+
+#about p {
+	width: 690px;
+	height: 136px;
+	font-family: 'Arial';
+	font-size: 13px;
+	font-weight: normal;
+	color: black;
+	line-height: 20px;
+	text-align: justify;
+}
+
+
+/*Orange Box and About AAER start*/
+
+
+/*President message+admission+Features start*/
+
+#President-right {
+	width: 188px;
+	height: 618px;
+	float: left;
+	margin-left: 195px;
+}
+
+#President-message h2 {
+	font-family: 'Arial';
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	margin: 33px 0px 16px 0px;
+	width: 150px;
+	height: 18px;
+}
+
+#President-message {
+	width: 188px;
+	height: 26px;
+	border-bottom: 1px solid #bab9b9;
+}
+
+#presidenting {
+	margin-top: 16px;
+}
+
+#president-info {
+	border-bottom: 1px solid #bab9b9;
+}
+
+#president-info img {
+	/*margin: 0px 0px 35px 195px;*/
+}
+
+#president-info h1 {
+	font-family: 'Arial';
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	width: 155px;
+	height: 13px;
+	/*margin-left: 195px;*/
+	padding-top: 14px;
+	/* padding-left: 0px; */
+	margin: 0px;
+}
+
+#president-info p {
+	width: 164px;
+	height: 35px;
+	/*margin-left: 195px;*/
+	font-family: 'Arial';
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 13px;
+	padding-bottom: 17px;
+	margin: 0px;
+	line-height: 20px;
+}
+
+#information {
+	margin-top: 26px;
+	border-bottom: 1px solid #bab9b9;
+}
+
+#information p {
+	width: 187px;
+	font-family: 'Arial';
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+	/*margin-left: 195px;*/
+	margin-bottom: 34px;
+	line-height: 20px;
+}
+
+
+/*--------Middle Section code start-----*/
+
+#middle {
+	width: 386px;
+	height: 625px;
+	float: left;
+	margin-left: 50px;
+	border: 1px solid #bab9b9;
+	margin-top: 25px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+#middle h2 {
+	font-size: 16px;
+	padding-top: 16px;
+	padding: 22px;
+}
+
+#middle ul li {
+	list-style: none;
+}
+
+#middle ul li span {
+	display: block;
+}
+
+button.active {
+	background: url(../images/background/AsianAcademyCollegesTabs.gif) no-repeat top left;
+}
+
+.tablinks {
+	width: 114px;
+	height: 40px;
+	color: #ffffff;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 14px;
+	float: left;
+	cursor: pointer;
+	background: url(../images/background/AsianAcademyCollegesTabs.gif) no-repeat bottom left;
+}
+
+.tabcontent {
+	width: 357px;
+	height: 474px;
+	display: none;
+}
+
+#admission-content1 {
+	display: block;
+}
+
+.tabcontent h3 {
+	font-size: 14px;
+	padding: 45px 0 8px 0;
+}
+
+#middle img {
+	display: block;
+	padding-right: 15px;
+	padding-bottom: -10px;
+	float: left;
+}
+
+#middle p {
+	font-size: 13px;
+	line-height: 1.6;
+	margin-bottom: 14px;
+}
+
+#middle h4 {
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#middle span {
+	font-size: 13px;
+}
+
+#middle a {
+	color: #0066ff;
+	text-decoration: underline;
+}
+
+
+/*--------Middle Section code end-----*/
+
+
+/*--------Right Section code start-----*/
+
+#right {
+	width: 290px;
+	height: 625px;
+	border: 1px solid #bab9b9;
+	margin-top: 25px;
+	margin-left: 18px;
+	float: left;
+}
+
+.Features {
+	width: 290px;
+	height: 619px;
+	float: right;
+}
+
+.Featuresdiv {
+	width: 274px;
+	height: 30px;
+	margin-top: 8px;
+	background: url("../images/background/AsianAcademyFeatures.gif");
+}
+
+button.accordion:hover {
+	background: url("../images/background/AsianAcademyStudentFacilities.gif");
+}
+
+button.accordion.active {
+	background: url("../images/background/AsianAcademyPlacementCell.gif");
+	outline: none;
+}
+
+.AAER {
+	font-size: 16px;
+	color: #ffffff;
+	padding: 11px 0px 5px 9px;
+}
+
+.para9 {
+	font-size: 13px;
+	color: #333333;
+	padding: 22px 0 0 18px;
+	line-height: 1.6;
+}
+
+.Features ul {
+	list-style-image: url("../images/background/left_arrow.png");
+	padding-left: 30px;
+	padding-top: 22px;
+	color: #333333;
+}
+
+.Features ul li {
+	font-size: 13px;
+	color: #333333;
+	padding-top: 3px;
+	line-height: 17px;
+}
+
+
+/*.------==============Accordion code Start============================*/
+
+button.accordion {
+	color: #FFF;
+	cursor: pointer;
+	margin: 10px 0 0 8px;
+}
+
+.panel {
+	display: none;
+}
+
+.panel.show {
+	display: block !important;
+}
+
+
+/*.------==============Accordion code End============================*/
+
+
+/*--------Right Section code end-----*/
+
+
+/*President message+admission+Features End*/
+
+
+/*Footer Contact-info Start*/
+
+footer {
+	width: 960px;
+	height: 400px;
+	margin-top: 42px;
+}
+
+#Contact-info {
+	width: 960px;
+	height: 340px;
+	background-color: #ebebeb;
+}
+
+#call {
+	width: 190px;
+	float: left;
+	margin: 22px 31px 0px 22px;
+}
+
+#call span {
+	font-size: 18px;
+}
+
+#Please-call {
+	width: 169px;
+	height: 36px;
+	margin: 0px;
+}
+
+#Please-call p {
+	font-family: 'Arial';
+	font-size: 17.13px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.contact-no {
+	width: 188px;
+	height: 70px;
+	margin-top: 4px;
+}
+
+.border {
+	border-bottom: 1px solid #bab9b9;
+}
+
+.contact-no p {
+	width: 112px;
+	height: 34px;
+	line-height: 20px;
+	margin-left: 52px;
+	padding-top: 20px;
+	font-family: 'Arial';
+	font-size: 14px;
+	font-weight: normal;
+	color: #cb1e40;
+}
+
+#location {
+	width: 320px;
+	height: 295px;
+	float: left;
+	border-left: 1px solid #bab9b9;
+	margin-top: 20px;
+}
+
+#location img {
+	width: 300px;
+	height: 256px;
+	margin-top: 14px;
+}
+
+#location-margin {
+	margin-left: 17px;
+}
+
+#location-margin p {
+	font-family: 'Arial';
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+}
+
+#address {
+	width: 356px;
+	height: 290px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.Office-Address {
+	margin: 15px 0px 15px 0px;
+}
+
+.Office-Address p {
+	font-family: 'Arial';
+	font-size: 13.5px;
+	font-weight: normal;
+	color: black;
+}
+
+#academy-name p {
+	font-family: 'Arial';
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+}
+
+.Office-Institute-Address p {
+	font-family: 'Arial';
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 20px;
+}
+
+.website-email p {
+	font-family: 'Arial';
+	font-size: 13.5px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.website-email p a {
+	text-decoration: underline;
+	color: #0066ff;
+}
+
+#website {
+	margin: 40px 0px 13px 0px;
+}
+
+#copyright {
+	float: left;
+	margin-top: 24px;
+	font-family: 'Arial';
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+}
+
+#degine {
+	float: right;
+	margin-top: 24px;
+	font-family: 'Arial';
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+}
+
+
+/*Footer Contact-info Start*/

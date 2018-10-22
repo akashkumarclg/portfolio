@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: none!important;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+}
+
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+
+/*header+nav css start here*/
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 1000;
+    top: 30px;
+    transition: all 150ms ease-in-out;
+}
+
+.scrolled {
+    position: fixed;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.navbar-inverse {
+    background-color: transparent!important;
+    /*#fff !important*/
+    border: none !important;
+}
+
+.navbar-header {
+    float: none !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #f2745f;
+    background-color: #f2745f;
+    right: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px !important;
+    line-height: 50px !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff!important;
+    transition: all 0.5s;
+    margin-left: 30px;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+.menu-first {
+    float: right !important;
+    margin-right: 20px !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #f2745f !important;
+    color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #a9a9a9 !important
+}
+
+.menu-first li a {
+    color: #ffffff !important;
+    /*color: #7a7a7a;*/
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 80px !important;
+    padding: 0px 20px !important;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    outline: none;
+}
+
+
+/*header+nav css End here*/
+
+
+/*Top Banner css start here*/
+
+.banner {
+    background-image: url("../images/background/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 280px 0px 200px 0px;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/background/cloud.jpg");
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+
+/* Now the same background, but with brightness filters*/
+
+.lightning {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/background/cloud.jpg");
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-filter: brightness(3);
+    filter: brightness(3);
+    -o-filter: brightness(3);
+    -moz-filter: brightness(3);
+    z-index: -1;
+}
+
+
+/*Now just a opacity animation*/
+
+.flashit {
+    -webkit-animation: flash ease-out 5s infinite;
+    -moz-animation: flash ease-out 5s infinite;
+    animation: flash ease-out 7s infinite;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes flash {
+    from {
+        opacity: 0;
+    }
+    92% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0.6;
+    }
+    94% {
+        opacity: 0.2;
+    }
+    96% {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    from {
+        opacity: 0;
+    }
+    92% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0.6;
+    }
+    94% {
+        opacity: 0.2;
+    }
+    96% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.banner-content h6 {
+    font-size: 18px !important;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.banner-content h2 {
+    font-size: 80px!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.banner-content ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.primary-button a {
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: #46bae2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.secondary-button a {
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: #f2745f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    color: #23527c !important;
+    text-decoration: none !important;
+}
+
+
+/*Top Banner css End here*/
+
+
+/*Sky blue css start here*/
+
+.intro {
+    background-color: #46bae2;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.intro h4 {
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.intro h6 {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.intro .border-button {
+    margin-top: 45px;
+}
+
+.border-button a {
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/*Sky blue css End here*/
+
+
+/*About us section css start here*/
+
+#about {
+    padding: 0px;
+    background-image: url("../images/background/services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#about .first-service {
+    background-color: rgba(242, 116, 95, 0.75);
+}
+
+#about .service-item {
+    text-align: center;
+    margin: 0px -15px;
+    padding: 120px 45px;
+}
+
+#about .service-item .icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 74px;
+    background-color: transparent;
+}
+
+#about .service-item h4 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#about .service-item p {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+#about .second-service {
+    background-color: rgba(54, 62, 80, 0.75);
+}
+
+#about .third-service {
+    background-color: rgba(70, 186, 226, 0.75);
+}
+
+.what-we-do {
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.section-heading h4 {
+    margin-top: 0px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #121212;
+}
+
+.section-heading p {
+    color: #7a7a7a;
+    padding: 0px 25%;
+}
+
+.what-we-do .tabs li a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.what-we-do .tabs .active .list-item {
+    background-color: #f2745f!important;
+    color: #fff!important;
+}
+
+.what-we-do .list-item {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 15px 0px;
+    transition: all 0.5s;
+}
+
+.what-we-do .tabs .active .list-item .icon {
+    background-color: #fff;
+}
+
+.what-we-do .list-item .icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    background-color: transparent;
+}
+
+.what-we-do .list-item h4 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 17px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.what-we-do .tab-content-services {
+    margin-top: 60px;
+}
+
+.what-we-do .tab-content-services .left-text h4 {
+    font-size: 22px!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.what-we-do .tab-content-services .left-text p {
+    color: #7a7a7a;
+}
+
+.what-we-do .tab-content-services .left-text .primary-button {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.what-we-do .tab-content-services .right-image img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/*About us section css end here*/
+
+
+/*portfolio+image slider section css start here*/
+
+#portfolio .section-heading h4 {
+    color: #fff !important;
+}
+
+#portfolio .section-heading p {
+    color: #aaa !important;
+}
+
+.portfolio-section {
+    background-color: #363e50;
+    padding-bottom: 80px;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio .portfolio-item img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+/*portfolio+image slider section css end here*/
+
+
+/*Blog section css start here*/
+
+.wrapper {
+    text-align: left;
+}
+
+#blog {
+    padding-bottom: 80px;
+}
+
+#blog {
+    background-color: #f4f4f4;
+}
+
+#blog .tabs {
+    list-style: none;
+    margin-top: 0px;
+}
+
+#blog .tabs li {
+    display: block;
+    text-align: left;
+    margin-bottom: 29px;
+}
+
+#blog .tabs .active a {
+    background-color: #46bae2 !important;
+    color: #fff!important;
+}
+
+#blog .tabs a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #121212;
+    font-size: 20px !important;
+    font-weight: 700;
+    padding: 24px 25px;
+    background-color: #fff;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px #cdcdcd;
+}
+
+#blog .tabs .active .info-post li {
+    color: #fff!important;
+}
+
+#blog .info-post li {
+    color: #343434;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+#blog .info-post li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#blog .info-post li i {
+    color: #46bae2;
+    margin-right: 5px;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#blog .tabs .active .info-post li i {
+    color: #fff!important;
+}
+
+#first-tab-group {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#first-tab-group img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tabgroup .text-content {
+    background-color: #fff;
+    color: #fff;
+    padding: 25px;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 0px 0px 10px #cdcdcd;
+}
+
+.tabgroup .text-content h4 {
+    font-size: 20px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #121212;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.tabgroup .text-content p {
+    margin-top: 17px;
+    color: #7a7a7a;
+}
+
+.tabgroup .text-content .primary-button {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+
+/*Blog section css end here*/
+
+
+/*Contact us css start here*/
+
+#contact-us {
+    background-color: #fff;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+#contact input {
+    border-radius: 0px;
+    padding-left: 15px;
+    font-size: 15px !important;
+    font-weight: 300;
+    color: #7a7a7a;
+    background-color: rgba(0, 0, 0, 0.03);
+    outline: none;
+    border: none;
+    box-shadow: none;
+    line-height: 50px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#contact textarea {
+    border-radius: 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #232323;
+    background-color: rgba(0, 0, 0, 0.03);
+    outline: none;
+    border: none;
+    box-shadow: none;
+    height: 165px;
+    max-height: 220px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+#contact button {
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: #46bae2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+
+/*Contact us css End here*/
+
+
+/*Footer css start here*/
+
+footer {
+    background-color: #363e50;
+    padding: 0px 0px;
+}
+
+footer p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 75px 0px;
+}
+
+footer a {
+    color: #9CF;
+}
+
+footer .social-icons {
+    text-align: center;
+    padding: 77px 0px;
+    margin: 0px;
+}
+
+footer .social-icons li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+footer .social-icons a {
+    color: #a3afc9;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    transition: all 0.5s;
+}
+
+footer .back-to-top a {
+    text-align: center;
+    background-color: #46bae2;
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+footer .back-to-top i {
+    display: block;
+    font-size: 36px;
+}
+
+
+/*Footer css End here*/
+
+@media (min-width: 768px) {
+    .col-md-15 {
+        width: 20% !important;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        float: none !important;
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border-color: transparent !important;
+    }
+    .navbar-nav {
+        margin: 0px!important;
+    }
+    .menu-first {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        float: none !important;
+    }
+    .menu-first li:first-child {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    .menu-first li {
+        border-bottom: 1px solid #eee;
+    }
+    .menu-first li a {
+        width: 100% !important;
+        line-height: 50px !important;
+    }
+}
