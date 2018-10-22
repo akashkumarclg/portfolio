@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/modernizr-2.6.2.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
     </head>
     <body>
@@ -528,7 +529,7 @@
                                             <p>Html, css</p>
                                         </span>
                                     </div>
-                                    <div class="col-xs-12 col-sm-6 grid-sizer front flipper design graphics filter" id="p1" style="height: 335px;">
+                                    <div class="col-xs-12 col-sm-6 grid-sizer front flipper design graphics filter" id="p1" style="height: 396px;">
                                         <a href="assets/thumbnail/bmw.jpg" target="_blank"><img src="assets/thumbnail/bmw.jpg" alt="bmw"></a>
                                         <span class="tooltiptext">
                                             Logo Design
@@ -564,7 +565,7 @@
                                             <p>Adobe Illustrator </p>
                                         </span>
                                     </div>
-                                    <div class="col-xs-12 col-sm-6 grid-sizer front flipper design graphics html js bootstrap rwd filter" id="p1" >
+                                    <div class="col-xs-12 col-sm-6 grid-sizer front flipper design graphics html js bootstrap rwd filter" id="p1" style="height: 396px;">
                                         <a href="#" target="_blank"><img src="assets/thumbnail/coming.jpg" alt="coming"></a>
                                         <span class="tooltiptext">Coming Soon..
                                         </span>
@@ -592,17 +593,17 @@
                                             <!--Social links-->
                                             <div class="menu" style="text-align: center;">
                                                 <div class="social-icons">
-                                                    <a href="#">
-                                                    <i class="fa fa-facebook"></i>
+                                                    <a href="https://www.facebook.com/akashkumarclg" target="_blank">
+                                                    <i class="fab fa-facebook"></i>
                                                     </a>
-                                                    <a href="#">
-                                                    <i class="fa fa-twitter"></i>
+                                                    <a href="https://www.instagram.com/garibactor" target="_blank">
+                                                    <i class="fab fa-instagram"></i>
                                                     </a>
-                                                    <a href="#">
-                                                    <i class="fa fa-linkedin"></i>
+                                                    <a href="https://www.linkedin.com/in/akash-kumar-452137107/" target="_blank">
+                                                    <i class="fab fa-linkedin"></i>
                                                     </a>
-                                                    <a href="#">
-                                                    <i class="fa fa-github"></i>
+                                                    <a href="https://github.com/akashkumarclg" target="_blank">
+                                                    <i class="fab fa-github"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -633,18 +634,23 @@
                                         <h3 class="subtitle">Contact Form
                                         </h3>
                                         <div class="contact_form">
-                                            <form action="send.php" method="post">
-                                                <input placeholder="Name" name="name" type="text" class="form-control">
-                                                <input placeholder="E-mail" name="email" type="email" class="form-control">
-                                                <textarea placeholder="Message" name="message" class="form-control"></textarea>
-                                                <div class="submit btn btn-lg btn-success btn-block">Send Message</div>
+                                            <div id="succmsg" style="display: none;">
+                                            </div>
+                                            <form name="frm_contact_us" id="frm_contact_us">
+                                                <div>
+                                                    <input placeholder="Name" name="txtname" id="txtname" type="text" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <input placeholder="E-mail" name="txtemail" id="txtemail" type="email" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <input placeholder="Mobile Number" name="txtphone" id="txtphone" type="text" class="form-control">
+                                                </div>
+                                                <div>
+                                                    <textarea placeholder="Message" name="ta_msg" id="ta_msg" class="form-control"></textarea>
+                                                </div>
+                                                <div><button type="submit" name="submit" class="click btn btn-lg btn-success btn-block">Send Message</button></div>
                                                 <!--Contact form message-->
-                                                <div class="msg_success">
-                                                    <p>Your message has been sent. Thank you!</p>
-                                                </div>
-                                                <div class="msg_error">
-                                                    <p>Sorry your message can not be sent.</p>
-                                                </div>
                                                 <!--End contact form message-->
                                             </form>
                                         </div>
@@ -669,5 +675,7 @@
         <script src="js/polyfills.js"></script>
         <script src="js/mob-menu.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/contact_us.js"></script>
     </body>
 </html>
